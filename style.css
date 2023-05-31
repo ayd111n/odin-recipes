@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+ul,
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.title {
+    background-color: rgb(172, 151, 126);
+    color: white;
+}
+
+.bye {
+    background-color: rgb(172, 151, 126);
+    color: white;
+}
