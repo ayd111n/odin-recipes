@@ -45,7 +45,7 @@ a:hover {
 }
 /* Navigation Bar end*/
 
-/* Index Body start */
+/* Index Intro start */
 .intro-container {
     box-sizing: border-box;
     margin-top: 20px;
@@ -90,3 +90,31 @@ a:hover {
     border: 3px solid white;
     border-radius: 10px;
 }
+
+/* Index Intro end */
+
+/* Index Bottom start */
+.info {
+    display: flex;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 30px 250px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    font-size: 25px;
+    margin: 0px 60px;
+    padding: 15px;
+    background-color: #55c082;
+    box-shadow: 2px 2px 5px #444c5c;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Index Bottom end */
