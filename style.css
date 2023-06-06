@@ -1,7 +1,40 @@
 body {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-logo,
+.home-button,
+.curry-button,
+.spag-button,
+.mac-button {
+    font-family: inherit, sans-serif;
+    font-size: 15px;
+}
+
+.navlink {
+    color: #474c59;
+}
+
+.nav-logo {
+    margin: 0px 400px 0px 100px;
+}
+
+.home-button,
+.curry-button,
+.spag-button,
+.mac-button {
+    margin: 0px 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul,
@@ -15,6 +48,7 @@ ol {
 .title {
     background-color: rgb(172, 151, 126);
     color: white;
+    margin: 0px;
 }
 
 .bye {
