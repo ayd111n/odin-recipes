@@ -35,9 +35,9 @@ a:hover {
 
 /* Navigation Bar end*/
 
-/* Mid Website start */
+/* Mid Index start */
 
-.mid-container {
+.mid-container { /*ON INDEX AND RECIPE PAGES*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ p {
     max-width: 100%;
 
 }
-/* Mid Website end */
+/* Mid Indec end */
 
 /* Index Bottom start */
 
@@ -105,7 +105,7 @@ p {
 }
 
 .bottom-info li {
-    background-color: #55c082;
+    background-color: #7aa7b5;
     width: 250px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -115,3 +115,96 @@ p {
     margin: 20px;
 }
 /* Index Bottom end */
+
+/* Recipe Pages */
+
+.mid-container { /*ON INDEX AND RECIPE PAGES*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0px;
+    background-color: #474c59;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.recipe-info-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 50px;
+    max-width: 500px;
+}
+
+.recipe-img {
+    border-radius: 10px;
+}
+
+.recipe-extras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.slogan {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ing-method-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0;
+    font-size: 20px;
+}
+
+.ing-container,
+.method-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px;
+    width: 800px;
+}
+
+.ing-title,
+.method-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.divider {
+    width: 10px;
+    background-color: #474c59;
+}
+
+.ing-list li,
+.method-list li {
+    margin: 10px 0px;
+}
+
+.ing-link {
+    text-align: center;
+    font-weight: bold;
+}
+
+.totop-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
